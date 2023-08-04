@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.textbox-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.textbox-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.textbox {
+  width: 150px;
+  margin: 5px;
+  padding: 5px;
+}

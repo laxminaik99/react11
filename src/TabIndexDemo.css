@@ -1,0 +1,28 @@
+.tab-index-demo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .layout-radio {
+    margin-bottom: 10px;
+  }
+  
+  .text-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+  }
+  
+  .text-boxes.horizontal {
+    flex-direction: column;
+  }
+  
+  .text-boxes.vertical {
+    flex-direction: column;
+  }
+  #inputdefault {
+    margin-right: 20px;
+  }
+  
